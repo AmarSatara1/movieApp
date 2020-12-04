@@ -1,0 +1,23 @@
+{
+  "name": "movieapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmarSatara1/movieApp.git"
+  },
+  "author": "Amar Satara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmarSatara1/movieApp/issues"
+  },
+  "homepage": "https://github.com/AmarSatara1/movieApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "unirest": "^0.6.0"
+  }
+}

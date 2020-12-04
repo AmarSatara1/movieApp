@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Library</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
+<body>
+  <div class="container px-0">
+    <div class="row navbar navbar-expand-lg navbar-dark bg-primary header">
+      <div class="col-md-12">
+        <div class="form-group d-flex flex-row mt-4 ">
+          <input type="text" class="form-control rounded-0" id="search-text" placeholder="Enter movie name...">
+          <button class="btn btn-light rounded-0" onclick="modul.searchTitle();">Search Movies</button>
+        </div>
+      </div>
+    </div>
+    <div class="row content px-0">
+      <div class="col-md-9 my-2">
+        <div id="results">
+        </div>
+      </div>
+      <div class="col-md-3 my-2">
+        <div id="movie">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="js/module.js"></script>
+</html>
